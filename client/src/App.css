@@ -1,0 +1,618 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  --color-1b0440:#1b0440;
+  --color-232f3e:#232f3e;
+  --color-f5f5f7:#f5f5f7
+}
+
+body{
+  font-family: 'Rubik', sans-serif;
+}
+
+a{
+  text-decoration: none;
+  display: inline;
+}
+
+.form-control:focus{
+  box-shadow: none;
+  border-color: white;
+}
+
+.header-top .form-control{
+  border-color: white;
+}
+
+.header-top{
+  background-color: var(--color-1b0440);
+}
+
+.header-bottom{
+  background-color: var(--color-1b0440);
+}
+
+.header-top .input-group-text{
+  background-color: white;
+  color: black;
+}
+
+.header-top .header-items img{
+  width: 35px;
+  height: 35px;
+}
+
+.header-bottom .dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.header-bottom .dropdown:hover p{
+  color:gold;
+}
+
+
+
+
+/*Footer Part Start Here*/
+
+footer{
+  background-color: #1b0440;
+}
+.footer-top .shop-address{
+  color: gold;
+}
+
+.footer-top .email:hover{
+  color: gold;
+}
+
+
+
+/*Footer part end here*/
+
+/*Here Starts featured category design*/
+
+.sliding-text-wrap {
+  padding: 12px 20px 8px;
+  background:white;
+  margin-top: 30px;
+  border-radius: 33px;
+  font-size: 14px;
+  color: #444;
+  min-height: 40px;
+}
+
+.rest-of-home{
+  background-color: var(--color-f5f5f7);
+}
+
+.cat-item-inner{
+  color: black;
+}
+
+.cat-item-wrap{
+  gap: 100px;
+}
+
+
+.cat-item{
+  display: flex;
+  flex-direction: column;
+  background-color:white;
+  padding: 15px;
+  border-radius: 33px;
+  justify-content: center;
+  align-items: center;
+  flex-basis: calc(20% - 100px); /* 20% to fit 5 items in a row, minus 10px for the gap */
+
+  
+}
+
+.cat-item:hover{
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+.cat-icon img {
+  height: 100px;
+  width: 100px;
+  vertical-align: middle;
+}
+
+.cat-item .cat-item-inner:hover{
+  color: black;
+}
+
+/*Here Ends featured category design*/
+
+/*Featured Products  css start*/
+
+
+
+/*Featured Products css end*/
+
+/*Product List component css start*/
+
+.p-item-inner{
+  color: black;
+}
+
+.p-item-wrap{
+  gap: 10px;
+}
+
+.p-item-availability .text-danger{
+  color: red;
+}
+
+.p-item{
+  display: flex;
+  flex-direction: column;
+  background-color:white;
+  padding: 15px;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  flex-basis: calc(20% - 10px); /* 20% to fit 5 items in a row, minus 10px for the gap */  
+}
+
+.p-item:hover{
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+  
+}
+
+.p-icon img {
+  height: 200px;
+  width: 200px;
+  vertical-align: middle;
+}
+
+.p-item .p-item-inner:hover p{
+  color: black;
+} 
+
+.p-item .add-cart .add-to-cart-btn{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background-color:var(--color-1b0440);
+  color: gold;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 10px;
+}
+
+.p-item-price{
+  padding: 10px;
+}
+
+.p-item-inner p{
+  padding-top: 20px;
+}
+
+.p-item-inner {
+  display: flex;
+  flex-direction: column;
+  height: 100%; /* set to 100% to fill the height of the parent .p-item element */
+}
+
+
+
+
+
+
+
+/*Product List component css end*/
+
+/*BreadCrumb Css Starts*/
+
+.b-crumb .home-link{
+  color: black;
+}
+
+/*BreadCrumb Css Ends*/
+
+
+
+/*Register Form Css Start*/
+
+.register-form-container{
+  background-color: var(--color-f5f5f7);
+}
+
+
+.register-form .form-control{
+  background-color: var(--color-f5f5f7);
+  border-radius: 20px;
+}
+
+.register-form-wrapper button{
+  background-color: var(--color-1b0440);
+  color: white;
+  border-radius: 20px;
+  width: 100px;
+  height: 50px;
+  margin-left: 20px;
+}
+
+.register-form-wrapper button:hover{
+  color: gold;
+}
+
+
+.register-form-wrapper{
+  padding: 20px;
+  background-color: white;
+  width: 500px;
+  margin: 30px auto;
+  border-radius: 30px;
+}
+
+.redstar{
+  color:red
+}
+
+.register-form-wrapper .input-label{
+  color:red
+}
+
+/*Register Form Css End*/
+
+
+/*Login Form Css Start*/
+
+.login-form-container{
+  background-color: var(--color-f5f5f7);
+}
+
+.login-form{
+  gap: 30px;
+}
+
+.login-form .form-control{
+  background-color: var(--color-f5f5f7);
+  border-radius: 20px;
+}
+
+
+
+.login-form-wrapper button{
+  background-color: var(--color-1b0440);
+  color: white;
+  border-radius: 20px;
+  width: 100px;
+  height: 50px;
+  margin-left: 20px;
+}
+
+.login-form-wrapper button:hover{
+  color: gold;
+}
+
+
+.login-form-wrapper{
+  padding: 20px;
+  background-color: white;
+  width: 500px;
+  margin: 30px auto;
+  border-radius: 30px;
+}
+
+.login-form-wrapper .input-label{
+  color: red;
+}
+
+/*Login Form Css End*/
+
+
+
+/*Forget Password Css Start*/
+
+.forget-password-form-container{
+  background-color: var(--color-f5f5f7);
+}
+
+.forget-password-form{
+  gap: 30px;
+}
+
+.forget-password-form .form-control{
+  background-color: var(--color-f5f5f7);
+  border-radius: 20px;
+}
+
+
+
+.forget-password-form-wrapper button{
+  background-color: var(--color-1b0440);
+  color: white;
+  border-radius: 20px;
+  width: 100px;
+  height: 50px;
+  margin-left: 20px;
+}
+
+.forget-password-form-wrapper button:hover{
+  color: gold;
+}
+
+
+.forget-password-form-wrapper{
+  padding: 20px;
+  background-color: white;
+  width: 500px;
+  margin: 30px auto;
+  border-radius: 30px;
+}
+
+/*Forget Password Css End*/
+
+
+/*Single Product View Css start */
+
+.single-product-view{
+  background-color: var(--color-f5f5f7);
+}
+
+.single-product-view .text-danger{
+  color: red;
+}
+
+.description-wrapper{
+  background-color: white;
+  margin-left: 50px;
+  margin-right: 50px;
+  border-radius: 10px;
+}
+
+.review-wrapper{
+  background-color: white;
+  margin-left: 50px;
+  margin-right: 50px;
+  border-radius: 10px;
+}
+
+.review{
+  background-color: var(--color-f5f5f7);
+  border-radius: 10px;
+}
+
+.single-product-wrapper{
+  border-radius: 10px;
+  background-color: white;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+
+.single-product-view .product-image{
+  background-color: white;
+  border-radius: 10px;
+}
+
+.quantity-text{
+  width: 40px;
+  
+}
+
+.operation-buttons .add-to-cart-btn{
+  display: flex;
+  align-items: center;
+  background-color: var(--color-1b0440);
+  color: gold;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 20px;
+  margin-left: 50px;
+}
+
+
+/*Single Product View Css End */
+
+/*Cart View Page Css Start*/
+
+.cart-view-wrapper{
+  background-color: var(--color-f5f5f7);
+  min-height: 40vh;
+}
+
+.cart-view-wrapper .container-xxl{
+  background-color: white;
+  border-radius: 10px;
+}
+
+
+.order-wrapper .cart-item-delete-button{
+  background-color: transparent;
+  color: black;
+  width: 20px;
+  height: 25px;
+  margin-left: 50px;
+  border-color: transparent;
+}
+
+
+
+.cart-view-wrapper .price-checkout button{
+  background-color: #1b0440;
+  border-radius: 20px;
+  padding: 20px;
+  color: gold;
+  text-align: center;
+}
+
+/*Cart View Page Css End*/
+
+
+/*Checkout page Css start*/
+.checkout-wrapper{
+  background-color: var(--color-f5f5f7);
+}
+
+.checkout-wrapper .container-xxl{
+  background-color: white;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.checkout-wrapper .confirm-prev-button button{
+  background-color: var(--color-1b0440);
+  color: gold;
+  border-radius: 20px;
+  padding: 20px;
+  margin-left: 100px;
+}
+
+
+
+.checkout-wrapper .information p{
+  border: 1px solid black;
+  padding: 10px;
+  background-color: var(--color-f5f5f7);
+  border-radius: 10px;
+}
+
+/*Checkout page Css end*/
+
+
+/*CategoryItems page Css start*/
+
+.category-product-list-wrapper{
+  background-color: var(--color-f5f5f7);
+}
+
+.category-product-list-wrapper .category-sort{
+  border-radius: 20px;
+}
+
+
+/*CategoryItems page Css end*/
+
+/*User Profile Css Start*/
+
+.user-profile-wrapper{
+  background-color: var(--color-f5f5f7);
+  
+}
+
+.user-profile-wrapper .container-xxl{
+  background-color: white;
+  border-radius: 10px;
+  min-height: 40vh;
+}
+
+.user-profile-wrapper .container-xxl .profile-input{
+  background-color: var(--color-f5f5f7);
+  border-radius: 20px;
+  padding: 10px;
+  margin: 5px;
+  border: 1px solid;
+}
+
+.user-profile-wrapper .user-profile-button{
+  background-color: var(--color-1b0440);
+  color: white;
+  border-radius: 20px;
+  padding: 20px;
+  width: fit-content;
+}
+
+.user-profile-wrapper .input-label{
+  color: red;
+}
+
+
+.user-profile-wrapper .user-profile-button:hover{
+  color: gold;
+}
+
+
+/*User Profile Css End*/
+
+
+/*Track Orders CSS Start*/
+
+.track-orders-wrapper{
+  background-color: var(--color-f5f5f7);
+}
+
+.track-orders-wrapper .container-xxl{
+  background-color: white;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+
+.track-orders-wrapper .order-entity{
+  background-color: var(--color-f5f5f7);
+  padding: 20px;
+  border-radius: 20px;
+  margin-top: 20px;
+}
+
+.track-orders-wrapper .order-item{
+  background-color: white;
+}
+
+.track-orders-wrapper .order-item button{
+  background-color: var(--color-1b0440);
+  color: white;
+  border-radius: 10px;
+  padding-top: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 5px;
+}
+
+.track-orders-wrapper .order-item button:hover{
+  color: gold;
+}
+
+.track-orders-wrapper .back-to-profile button{
+  background-color: var(--color-1b0440);
+  color: white;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.track-orders-wrapper .back-to-profile button:hover{
+  color: gold;
+}
+
+/*Track Orders CSS End*/
+
+/*Review Page CSS start*/
+
+.review-page-wrapper{
+  background-color: var(--color-f5f5f7);
+}
+
+.review-page-wrapper .form-control{
+  border: 1px solid;
+}
+
+.review-page-wrapper .review-page-button button{
+  background-color: var(--color-1b0440);
+  color: white;
+  padding: 20px;
+  border-radius: 20px;
+  margin-right: 20px;
+}
+
+
+.review-page-wrapper .review-page-button button:hover{
+  color: gold;
+}
+
+.review-page-wrapper .text-area-label{
+  color:red
+}
+
+/*Review Page CSS end*/
